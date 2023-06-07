@@ -24,6 +24,11 @@
   color: white;
 }
 
+.font-link {
+  font-family: 'SF Mono', sans-serif;
+}
+
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +40,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.font-face-gm {
+  font-family: "RobotoMono";
 }

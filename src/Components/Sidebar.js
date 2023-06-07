@@ -14,12 +14,12 @@ const Sidebar = () => {
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
       <CDBSidebar textColor="#fa7f67" backgroundColor="#FFFFFF">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
-          <a href="/" className="text-decoration-none" style={{ color: '#fa7f67' }}>
+          <a href="/" className="font-face-gm" style={{ color: '#fa7f67' }}>
             Mike King
           </a>
         </CDBSidebarHeader>
 
-        <CDBSidebarContent className="sidebar-content">
+        <CDBSidebarContent className="sidebar-content font-face-gm">
           <CDBSidebarMenu>
             <NavLink exact to="/illustrations" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="table" style={{ color: '#fa7f67' }}>Illustration</CDBSidebarMenuItem>
