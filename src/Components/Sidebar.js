@@ -1,4 +1,5 @@
 import React from 'react';
+import { SocialIcon } from 'react-social-icons';
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -33,13 +34,13 @@ const Sidebar = () => {
           </CDBSidebarMenu>
         </CDBSidebarContent>
 
-        <CDBSidebarFooter style={{ textAlign: 'center' }}>
+        <CDBSidebarFooter style={{ textAlign: 'left' }}>
           <div
             style={{
               padding: '20px 5px',
             }}
           >
-            Links to instagram go here 
+            <SocialIcon className="nav-item" fgColor="white" url="https://www.instagram.com/mikekingart/?hl=en" target="_blank" /> 
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>

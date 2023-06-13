@@ -48,13 +48,13 @@ export default function Contact() {
                 Email
               </h2>
               <p className="text-[#1BA098] leading-relaxed">
-                michael.starkb@gmail.com
+                mike.king@farts.com
               </p>
               <h2 className="font-face-gm" style={{ color: '#fa7f67', padding: '10px'}}>
                 Phone
               </h2>
               <p className="text-[#1BA098] leading-relaxed">
-                917.854.4008
+                512.888.5026
               </p>
             </div>
           </div>
