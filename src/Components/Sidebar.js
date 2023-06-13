@@ -39,7 +39,7 @@ const Sidebar = () => {
               padding: '20px 5px',
             }}
           >
-            Sidebar Footer
+            Links to instagram go here 
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
