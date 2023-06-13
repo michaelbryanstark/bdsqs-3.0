@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   text-align: center;
 }
 

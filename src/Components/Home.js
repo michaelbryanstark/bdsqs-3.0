@@ -10,6 +10,7 @@ const Home = () => {
             <h1 className="font-face-gm" style={{ color: '#fa7f67' }}>
                 Home
             </h1>
+           
         </div>
     )
 };
