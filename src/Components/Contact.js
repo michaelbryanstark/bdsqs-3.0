@@ -20,21 +20,23 @@ const Contact = () => {
               <li style={{ fontSize: '30px', marginBottom: '15px'}}>Collage</li>
             </ul>
           </div>
-          <div className="about" style={{width: '50%', float: 'left'}}>
+          <div className="about" style={{width: '50%', float: 'left', marginLeft: '50px'}}>
             <h3 style={{fontWeight: '100'}}>
               Mike King is an artist from Austin, Texas who Graduated with a BFA in 
               Communications Design-Illustration at Pratt Institute and studied painting 
               at Art Students League of NYC. Currently based in Brooklyn, and Buenos Aires 
               in 2023
             </h3>
-              <div classname="email" style={{width: '50%', float: 'left', marginTop: '30px'}}>
+            <div className="float-container">
+              <div classname="row" style={{ float: 'left', marginTop: '30px', marginLeft: '20px'}}>
                 <h4 style={{fontWeight: '600'}}>Email</h4>
                 <h5 style={{fontWeight: '100'}}>mikekingart@farts.com</h5>
               </div>
-              <div classname="instagram" style={{width: '50%', float: 'left', marginTop: '30px'}}>
+              <div classname="row" style={{ float: 'left', marginTop: '30px', marginLeft: '20px'}}>
                 <h4 style={{fontWeight: '600'}}>Instagram</h4>
                 <h5 style={{fontWeight: '100'}}>@MikeKingArt</h5>
               </div>
+            </div>
           </div>
           </div>
         </div>
