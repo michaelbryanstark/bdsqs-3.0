@@ -59,7 +59,7 @@ function Projects() {
             alt={item.text}
             onClick={() => handleClick(item, index)}
           />
-          <h2>{item.text}</h2>
+          {/* <h2 className="font-face-gm" style={{ color: '#fa7f67', textAlign: 'left', fontWeight: '100', fontSize: '15px'}}>{item.text}</h2> */}
         </div>
       ))}
       <div>

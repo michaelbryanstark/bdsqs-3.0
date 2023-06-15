@@ -12,7 +12,18 @@ code {
   src: local("RobotoMono"),
   url("./Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
 }
+/* project images size */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+.wrapper-images img {
+  width: 500px;
+  height: 500px;
+  margin-bottom: 50px;
+}
 /* modal */
 .overlay {
   position: fixed;
@@ -37,7 +48,7 @@ code {
   top: 20px;
   right: 20px;
   font-size: 30px;
-  color: #ffffff;
+  color: #fa7f67;
   z-index: 999;
   cursor: pointer;
 }
@@ -56,11 +67,13 @@ code {
 .overlay-arrows_left svg {
   width: 50px;
   height: 50px;
+  color: #fa7f67;
 }
 
 .overlay-arrows_right svg {
   width: 50px;
   height: 50px;
+  color: #fa7f67;
 }
 
 .overlay-arrows_right {
