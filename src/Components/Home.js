@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import data from "../data/images";
+import data from "../data/home";
 import Modal from "./Modal";
 
 
