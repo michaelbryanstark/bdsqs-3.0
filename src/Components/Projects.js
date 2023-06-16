@@ -5,7 +5,7 @@ import Modal from "./Modal";
 
 
 function Projects() {
-    const [clickedImg, setClickedImg] = useState(null);
+  const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
   const handleClick = (item, index) => {
