@@ -10,10 +10,10 @@ import {
 } from 'cdbreact';
 import { NavLink } from 'react-router-dom';
 
-const Sidebar = () => {
+function Sidebar() {
   return (
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
-      <CDBSidebar textColor="#fa7f67" backgroundColor="#FFFFFF">
+      <CDBSidebar textColor="#fa7f67" backgroundColor="none">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="font-face-gm" style={{ color: '#fa7f67' }}>
             home
@@ -40,6 +40,7 @@ const Sidebar = () => {
               padding: '20px 5px',
             }}
           >
+            {/* change color of socialicon */}
             <SocialIcon className="nav-item" fgColor="white" url="https://www.instagram.com/mikekingart/?hl=en" target="_blank" /> 
           </div>
         </CDBSidebarFooter>
