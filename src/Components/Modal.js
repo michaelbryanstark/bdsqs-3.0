@@ -9,6 +9,7 @@ const Modal = ({
     const handleClick = (e) => {
       if (e.target.classList.contains("dismiss")) {
         setClickedImg(null);
+        // setclickedimgtext
       }
     };
   
@@ -16,6 +17,7 @@ const Modal = ({
       <>
         <div className="overlay dismiss" onClick={handleClick}>
           <img src={clickedImg} alt="bigger pic" />
+          {/* add text for image here */}
           <span className="dismiss" onClick={handleClick}>
             X
           </span>
