@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div>
           <h1 className="font-face-gm" style={{ color: '#fa7f67', textAlign: 'left', marginTop: '15px', marginLeft: '50px', marginBottom: '75px'}}>
-                Contact
+                contact
           </h1>
           <div className="float-container" style={{ color: '#fa7f67'}}>
           <div className="expert" style={{ width: '30%', float: 'left', marginLeft: '50px'}}>
