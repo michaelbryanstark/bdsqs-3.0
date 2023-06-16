@@ -22,7 +22,7 @@ function Sidebar() {
         <CDBSidebarContent className="sidebar-content font-face-gm">
           <CDBSidebarMenu>
             <NavLink exact to="/illustrations" activeClassName="activeClicked">
-                  <CDBSidebarMenuItem icon="brush" style={{ color: '#fa7f67' }}>illustration</CDBSidebarMenuItem>
+                  <CDBSidebarMenuItem icon="pen" style={{ color: '#fa7f67' }}>illustration</CDBSidebarMenuItem>
                 </NavLink>
             <NavLink exact to="/projects" activeClassName="activeClicked">
                   <CDBSidebarMenuItem icon="palette" style={{ color: '#fa7f67' }}>projects</CDBSidebarMenuItem>
