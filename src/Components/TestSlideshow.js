@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import cowboysmaller from "../images/cowboysmaller.jpeg"
 
-const Carousel = () => {
+const TestSlideshow
+ = () => {
 
     const [slides] = useState([
         {
@@ -18,7 +19,8 @@ const Carousel = () => {
         }
     ]);
 
-    // SET CAROUSEL DEFAULTS
+    // SET TestSlideshow
+    //  DEFAULTS
     let [currentPosition, setCurrentPosition] = useState(0); // Initial slide index value
     let currentSlide = slides[currentPosition]; // variable index value we can reference later
 
@@ -35,7 +37,8 @@ const Carousel = () => {
     }
 
     return (
-        <div className="carousel-block">
+        <div className="TestSlideshow
+        -block">
             <div className="flex-container">
                 <div id="slider">
                     <div className="slide">
@@ -52,4 +55,5 @@ const Carousel = () => {
     )
 }
 
-export default Carousel;
+export default TestSlideshow
+;

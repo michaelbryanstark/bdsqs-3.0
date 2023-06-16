@@ -4,7 +4,8 @@ const Modal = ({
     clickedImg,
     setClickedImg,
     handelRotationRight,
-    handelRotationLeft
+    handelRotationLeft,
+    // item
   }) => {
     const handleClick = (e) => {
       if (e.target.classList.contains("dismiss")) {
@@ -18,6 +19,7 @@ const Modal = ({
         <div className="overlay dismiss" onClick={handleClick}>
           <img src={clickedImg} alt="bigger pic" />
           {/* add text for image here */}
+          {/* <h2 className="font-face-gm" style={{ color: '#fa7f67', textAlign: 'left', fontWeight: '100', fontSize: '15px'}}>{item.text}</h2> */}
           <span className="dismiss" onClick={handleClick}>
             X
           </span>

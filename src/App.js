@@ -6,7 +6,7 @@ import Home from './Components/Home';
 import Illustrations from './Components/Illustrations';
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import Carousel from './Components/Carousel';
+
 
 
 function App() {
@@ -19,7 +19,6 @@ function App() {
             <Route exact path='/illustrations' element={<Illustrations />}></Route>
             <Route exact path='/projects' element={<Projects />}></Route>
             <Route exact path='/contact' element={<Contact />}></Route>
-            <Route exact path='/carousel' element={<Carousel />}></Route>
           </Routes>
       </div>
     </Router>
