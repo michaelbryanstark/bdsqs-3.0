@@ -23,10 +23,10 @@ function Sidebar() {
         <CDBSidebarContent className="sidebar-content font-face-gm">
           <CDBSidebarMenu>
             <NavLink exact to="/illustrations" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="plus" style={{ color: '#fa7f67' }}>illustration</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="brush" style={{ color: '#fa7f67' }}>illustration</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/projects" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="minus" style={{ color: '#fa7f67' }}>projects</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="palette" style={{ color: '#fa7f67' }}>projects</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/contact" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="envelope" style={{ color: '#fa7f67' }}>contact</CDBSidebarMenuItem>

@@ -5,7 +5,7 @@ import Modal from "./Modal";
 
 
 function Illustrations() {
-    const [clickedImg, setClickedImg] = useState(null);
+  const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
   const handleClick = (item, index) => {
@@ -30,7 +30,7 @@ function Illustrations() {
     setCurrentIndex(newIndex);
   };
 
-  const handelRotationLeft = () => {
+    const handelRotationLeft = () => {
     const totalLength = data.data.length;
     if (currentIndex === 0) {
       setCurrentIndex(totalLength - 1);
