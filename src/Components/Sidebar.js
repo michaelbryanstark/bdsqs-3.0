@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 
 function Sidebar() {
   return (
-    <div style={{ display: 'flex', height: '42vh', overflow: 'scroll initial' }}>
+    <div style={{ display: 'flex', height: '50vh', overflow: 'scroll initial' }}>
       <CDBSidebar toggled textColor="#fa7f67" backgroundColor="none">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="font-face-gm" style={{ color: '#fa7f67' }}>
@@ -36,7 +36,7 @@ function Sidebar() {
         <CDBSidebarFooter style={{ textAlign: 'center' }}>
           <div
             style={{
-              padding: '20px 5px',
+              
             }}
           >
             {/* change color of socialicon */}
