@@ -41,7 +41,7 @@ function Sidebar() {
             }}
           >
             {/* change color of socialicon */}
-            <SocialIcon className="nav-item" fgColor="white" url="https://www.instagram.com/mikekingart/?hl=en" target="_blank" /> 
+            <SocialIcon className="nav-item" fgColor="white" bgColor="#fa7f67" url="https://www.instagram.com/mikekingart/?hl=en" target="_blank" /> 
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
