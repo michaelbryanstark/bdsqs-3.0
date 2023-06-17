@@ -6,6 +6,7 @@ import Home from './Components/Home';
 import Illustrations from './Components/Illustrations';
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
+import Secret from './Components/Secret';
 
 
 
@@ -19,6 +20,7 @@ function App() {
             <Route exact path='/illustrations' element={<Illustrations />}></Route>
             <Route exact path='/projects' element={<Projects />}></Route>
             <Route exact path='/contact' element={<Contact />}></Route>
+            <Route exact path='/secret' element={<Secret />}></Route>
           </Routes>
       </div>
     </Router>
