@@ -25,7 +25,7 @@ const Contact = () => {
               Mike King is an artist from Austin, Texas who Graduated with a BFA in 
               Communications Design-Illustration at Pratt Institute and studied painting 
               at Art Students League of NYC. Currently based in Brooklyn, and Buenos Aires 
-              in 2023
+              in 2023, New York in 2024. 
             </h3>
             <div className="float-container">
               <div classname="row" style={{ float: 'left', marginTop: '30px', marginLeft: '20px'}}>
