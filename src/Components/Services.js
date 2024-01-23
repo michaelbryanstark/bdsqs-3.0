@@ -4,7 +4,7 @@ import Modal from "./Modal";
 
 
 
-function Illustrations() {
+function Services() {
   const [clickedImg, setClickedImg] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(null);
 
@@ -49,7 +49,7 @@ function Illustrations() {
     return (
         <div>
             <h1 className="font-face-gm" style={{ color: '#fa7f67', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
-                illustrations
+                Services
             </h1>
             <div className="wrapper">
       {data.data.map((item, index) => (
@@ -77,4 +77,4 @@ function Illustrations() {
     )
 };
 
-export default Illustrations;
+export default Services;
