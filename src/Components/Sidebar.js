@@ -16,19 +16,19 @@ function Sidebar() {
       <CDBSidebar toggled textColor="rgba(0, 171, 252,.8)" backgroundColor="none">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)' }}>
-            home
+            Home
           </a>
         </CDBSidebarHeader>    
         <CDBSidebarContent className="sidebar-content font-face-gm">
           <CDBSidebarMenu>
             <NavLink exact to="/services" activeClassName="activeClicked">
-                  <CDBSidebarMenuItem icon="pen" style={{ color: 'rgba(0, 171, 252,.8)' }}>Services</CDBSidebarMenuItem>
+                  <CDBSidebarMenuItem icon="laptop" style={{ color: 'rgba(0, 171, 252,.8)' }}>Services</CDBSidebarMenuItem>
                 </NavLink>
             <NavLink exact to="/certifications" activeClassName="activeClicked">
-                  <CDBSidebarMenuItem icon="palette" style={{ color: 'rgba(0, 171, 252,.8)' }}>Certifications</CDBSidebarMenuItem>
+                  <CDBSidebarMenuItem icon="briefcase" style={{ color: 'rgba(0, 171, 252,.8)' }}>Certifications</CDBSidebarMenuItem>
                 </NavLink>
             <NavLink exact to="/company" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="envelope" style={{ color: 'rgba(0, 171, 252,.8)' }}>Company</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="city" style={{ color: 'rgba(0, 171, 252,.8)' }}>Company</CDBSidebarMenuItem>
             </NavLink>
             <NavLink exact to="/contact" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="envelope" style={{ color: 'rgba(0, 171, 252,.8)' }}>Contact</CDBSidebarMenuItem>
