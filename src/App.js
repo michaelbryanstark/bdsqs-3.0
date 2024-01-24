@@ -6,7 +6,7 @@ import Home from './Components/Home';
 import Services from './Components/Services';
 import Certifications from "./Components/Certifications";
 import Contact from "./Components/Contact";
-import Secret from './Components/Company';
+import Company from './Components/Company';
 
 
 
@@ -20,7 +20,7 @@ function App() {
             <Route exact path='/services' element={<Services />}></Route>
             <Route exact path='/certifications' element={<Certifications />}></Route>
             <Route exact path='/contact' element={<Contact />}></Route>
-            <Route exact path='/secret' element={<Secret />}></Route>
+            <Route exact path='/company' element={<Company />}></Route>
           </Routes>
       </div>
     </Router>
