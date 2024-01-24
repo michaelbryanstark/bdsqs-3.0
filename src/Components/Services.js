@@ -1,80 +1,47 @@
-import React, {useState} from "react";
-import data from "../data/illustrations";
-import Modal from "./Modal";
+import React from "react";
+// import data from "../data/illustrations";
+// import Modal from "./Modal";
 
 
 
 function Services() {
-  const [clickedImg, setClickedImg] = useState(null);
-  const [currentIndex, setCurrentIndex] = useState(null);
+  return(
+    <>
+    <div className="cert">
+    <h2 className="welcome-text" style={{ color: 'rgba(0, 171, 252,.8)'}}>What We Offer</h2>
+    <>
+    
+    <div class="container">
+<div class="row">
+ 
+        <div class="card text-white text-lrft bg-secondary mb-3">
+            <div class="card-body">
+    <p class="text-left">
+                    <ul>
+                        <li>Consulting in the areas of Quality Management System gap analysis, development, and deployment.</li>  
+                        
+                        <li>Performance of internal (first party) and external (second party) audits to include AS 9100, ISO 9001, ISO 13485 and ANSI/ESD 20.20.</li>  
+                        
+                        <li>Quality training to include internal auditing, ISO 9001, and AS 9100 .</li> 
+                         
+                        <li>Consulting in supplier development and improvement.</li>
+                        
+                        <li>Web Development Services (Python, JavaScript, React, Django, PostgreSQL, Node.js, MongoDB, REST APIs, HTML, CSS, jQuery, JSON, JSON Web Tokens)</li>
+                    </ul>
 
-  const handleClick = (item, index) => {
-    setCurrentIndex(index);
-    setClickedImg(item.link);
-  };
-
-  const handelRotationRight = () => {
-    const totalLength = data.data.length;
-    if (currentIndex + 1 >= totalLength) {
-      setCurrentIndex(0);
-      const newUrl = data.data[0].link;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex + 1;
-    const newUrl = data.data.filter((item) => {
-      return data.data.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].link;
-    setClickedImg(newItem);
-    setCurrentIndex(newIndex);
-  };
-
-    const handelRotationLeft = () => {
-    const totalLength = data.data.length;
-    if (currentIndex === 0) {
-      setCurrentIndex(totalLength - 1);
-      const newUrl = data.data[totalLength - 1].link;
-      setClickedImg(newUrl);
-      return;
-    }
-    const newIndex = currentIndex - 1;
-    const newUrl = data.data.filter((item) => {
-      return data.data.indexOf(item) === newIndex;
-    });
-    const newItem = newUrl[0].link;
-    setClickedImg(newItem);
-    setCurrentIndex(newIndex);
-  };
-    return (
-        <div>
-            <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
-                Services
-            </h1>
-            <div className="wrapper">
-      {data.data.map((item, index) => (
-        <div key={index} className="wrapper-images">
-          <img
-            src={item.link}
-            alt={item.text}
-            onClick={() => handleClick(item, index)}
-          />
-          {/* <h2 className="font-face-gm" style={{ color: '#fa7f67', textAlign: 'left', fontWeight: '100', fontSize: '15px'}}>{item.text}</h2> */}
+                    </p>
+                    
+                    </div>
+      
+          </div>
+     </div>
+</div>
+  </>
         </div>
-      ))}
-      <div>
-        {clickedImg && (
-          <Modal
-            clickedImg={clickedImg}
-            handelRotationRight={handelRotationRight}
-            setClickedImg={setClickedImg}
-            handelRotationLeft={handelRotationLeft}
-          />
-        )}
-      </div>
-    </div>
-        </div>
-    )
-};
-
+     
+ 
+    </>
+    
+)
+}
 export default Services;
