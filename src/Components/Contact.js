@@ -43,9 +43,9 @@ const Contact = (props) => {
     return (
         <>
         <div>
-            <div className="intro">
-                <h2 className="welcome-text" style={{ color: 'rgba(0, 171, 252,.8)'}}>Contact</h2>
-            </div>
+        <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
+            Contact
+            </h1>
                  <div>
         <>
                     <div className="container">

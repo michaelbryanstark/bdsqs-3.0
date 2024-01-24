@@ -24,11 +24,11 @@ function Sidebar() {
             <NavLink exact to="/services" activeClassName="activeClicked">
                   <CDBSidebarMenuItem icon="pen" style={{ color: 'rgba(0, 171, 252,.8)' }}>Services</CDBSidebarMenuItem>
                 </NavLink>
-            <NavLink exact to="/projects" activeClassName="activeClicked">
-                  <CDBSidebarMenuItem icon="palette" style={{ color: 'rgba(0, 171, 252,.8)' }}>projects</CDBSidebarMenuItem>
+            <NavLink exact to="/certifications" activeClassName="activeClicked">
+                  <CDBSidebarMenuItem icon="palette" style={{ color: 'rgba(0, 171, 252,.8)' }}>Certifications</CDBSidebarMenuItem>
                 </NavLink>
             <NavLink exact to="/contact" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="envelope" style={{ color: 'rgba(0, 171, 252,.8)' }}>contact</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="envelope" style={{ color: 'rgba(0, 171, 252,.8)' }}>Contact</CDBSidebarMenuItem>
             </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>
