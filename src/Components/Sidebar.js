@@ -25,7 +25,7 @@ function Sidebar() {
                   <CDBSidebarMenuItem icon="laptop" style={{ color: 'rgba(0, 171, 252,.8)' }}>Services</CDBSidebarMenuItem>
                 </NavLink>
             <NavLink exact to="/certifications" activeClassName="activeClicked">
-                  <CDBSidebarMenuItem icon="briefcase" style={{ color: 'rgba(0, 171, 252,.8)' }}>Certifications</CDBSidebarMenuItem>
+                  <CDBSidebarMenuItem icon="certificate" style={{ color: 'rgba(0, 171, 252,.8)' }}>Certifications</CDBSidebarMenuItem>
                 </NavLink>
             <NavLink exact to="/company" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="city" style={{ color: 'rgba(0, 171, 252,.8)' }}>Company</CDBSidebarMenuItem>
