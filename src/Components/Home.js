@@ -11,16 +11,25 @@ function Home() {
                 B D S Q S
             </h1>
             <div className="wrapper">
-      {data.data.map((item, index) => (
-        <div key={index} className="wrapper-home">
-          <img
-            src={item.link}
-            alt={item.text}
-
-          />
-          {/* <h2 className="font-face-gm" style={{ color: '#fa7f67', textAlign: 'left', fontWeight: '100', fontSize: '15px'}}>{item.text}</h2> */}
+            <div className="cert">
+        <>
+            <h2 className="welcome-text" style={{ color: 'rgba(0, 171, 252,.8)'}}>Welcome to BDS Quality Services</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="card text-white bg-secondary mb-3">
+                            <div class="card-body">
+                                 <p class="card-text">
+                                    When you come to BDS Quality Services, you can expect exceptional knowledge of numerous Quality Assurance Programs utilizing ISO 9001:2015 & AS9100D, which include internal assessments and surveillance audits of suppliers. 
+                                    What we as a company can offer includes, but is not limited to, QA Process Development which include SPC, Guage R&R studies, DFMEA, & PFMEA Development. 
+                                    Here at BDS Quality Services we are productive, multi-task oriented, adapt well to change, and are meticulous. We excel at troubleshooting, problem-solving, and decision-making. 
+                                    We come with a strong working knowledge of JMP, RELEX, Word, Excel, Powerpoint, Windows, Microsoft Outlook, Lotus Notes, E-mail, SAP, & Oracle to suit your every need.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ 
+        </>
         </div>
-      ))}
 
     </div>
     </div>
