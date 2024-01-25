@@ -9,12 +9,12 @@ function Certifications() {
             </h1>
             <div className="wrapper">
             <div class="container">
-            <div class="card bg-secondary mb-3" style={{ color: 'rgba(222, 185, 146)'}}>
+            <div class="card mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
                 <div class="card-body">
                     <p class="card-text">
                         <h3>ASQ Certified Quality Auditor</h3>  
                             <p>Issuing authority ASQ - World Headquarters</p> 
-                                <button type='button' className="btn btn-outline-info"onClick={()=> window.open("https://credentials.asq.org/7363e433-175b-4627-9f1a-4bef135c684e", "_blank")}>See Credential</button>
+                                <button type='button' className="btn btn-outline-info" style={{ color: 'rgba(222, 185, 146)'}} onClick={()=> window.open("https://credentials.asq.org/7363e433-175b-4627-9f1a-4bef135c684e", "_blank")}>See Credential</button>
                             <br></br>
                             <br></br>
 

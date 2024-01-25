@@ -14,7 +14,7 @@ function Services() {
         <div class="container">
     <div class="row">
      
-            <div class="card text-lrft bg-secondary mb-3" style={{ color: 'rgba(222, 185, 146)'}}>
+            <div class="card text-lrft mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
                 <div class="card-body">
         <p class="text-left">
                         <ul>

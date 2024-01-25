@@ -49,7 +49,7 @@ const Contact = (props) => {
                  <div>
         <>
                     <div className="container">
-                        <div className="card bg-secondary mb-3" style={{ color: 'rgba(222, 185, 146)'}}>
+                        <div className="card mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
                             <div className="card-body">
                                 <div className="row mb-3">
                                     <label for="exampleFormControlInput1" className="form">Your Name</label>

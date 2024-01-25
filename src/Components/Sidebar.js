@@ -1,5 +1,5 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -43,7 +43,7 @@ function Sidebar() {
             }}
           >
             {/* change color of socialicon */}
-            <SocialIcon className="nav-item" fgColor="white" bgColor="rgba(0, 171, 252,.8)" url="https://www.linkedin.com/in/bdstark2000/" target="_blank" /> 
+            {/* <SocialIcon className="nav-item" fgColor="white" bgColor="rgba(0, 171, 252,.8)" url="https://www.linkedin.com/in/bdstark2000/" target="_blank" />  */}
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>
