@@ -15,10 +15,10 @@ function Home() {
             <div className="wrapper">
             <div className="cert">
         <>
-            <h2 className="welcome-text" style={{ color: 'rgba(0, 171, 252,.8)'}}>Welcome to BDS Quality Services</h2>
                 <div class="container">
                     <div class="row">
-                        <div class="card mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
+                        <div class="cardHome mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', textAlign: 'left'}}>
+                        <h2 className="welcome-text" >Welcome to BDS Quality Services</h2>
                             <div class="card-body">
                                  <p class="card-text">
                                     When you come to BDS Quality Services, you can expect exceptional knowledge of numerous Quality Assurance Programs utilizing ISO 9001:2015 & AS9100D, which include internal assessments and surveillance audits of suppliers. 

@@ -8,6 +8,50 @@
   
 }
 
+.wrapper {
+  margin-right: 100px;
+}
+
+.cardHome {
+  box-shadow: 5px 5px 5px #3398E1;
+  text-align: center;
+  border-width: 5px;
+  border-color: rgb(15, 34, 75);
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card {
+  box-shadow: 5px 5px 5px #3398E1;
+  text-align: center;
+  border-width: 5px;
+  border-color: rgb(15, 34, 75);
+  border-radius: 15px;
+
+  margin-right: 200px;
+}
+
+.cardCompany {
+  box-shadow: 5px 5px 5px #3398E1;
+  text-align: center;
+  border-width: 5px;
+  border-color: rgb(15, 34, 75);
+  border-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cardServices {
+  box-shadow: 5px 5px 5px #3398E1;
+  max-width: 50rem;
+
+  border-width: 5px;
+  border-color: rgb(15, 34, 75);
+  border-radius: 15px;
+  margin-right: 200px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

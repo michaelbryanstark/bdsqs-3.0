@@ -13,7 +13,7 @@ function Secret() {
                     <div className="about">
                         <div className="row row-cols-1 row-cols-md-3">
                             <div className="col">
-                                <div className="card text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
+                                <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
                                     <div className="image">
                                         <img className="profilePicBryan" src={bryan} alt="bryan"/>
                                     </div>
@@ -25,7 +25,7 @@ function Secret() {
                             </div>
                         </div>
                     <div className="col">
-                        <div className="card text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
+                        <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
                             <div className="image">
                                 <img className="profilePicMike" src={mike} alt="mike"/>
                             </div>
