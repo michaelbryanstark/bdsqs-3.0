@@ -1,5 +1,4 @@
 import React from 'react';
-// import { SocialIcon } from 'react-social-icons';
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -13,7 +12,7 @@ import { NavLink } from 'react-router-dom';
 function Sidebar() {
   return (
     <div style={{ display: 'flex', height: '50vh', overflow: 'scroll initial' }}>
-      <CDBSidebar toggled className='navbar-toggler' textColor="rgba(0, 171, 252,.8)" backgroundColor="none">
+      <CDBSidebar  className='navbar-toggler' textColor="rgba(0, 171, 252,.8)" backgroundColor="none">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)' }}>
             Home
@@ -42,8 +41,6 @@ function Sidebar() {
               
             }}
           >
-            {/* change color of socialicon */}
-            {/* <SocialIcon className="nav-item" fgColor="white" bgColor="rgba(0, 171, 252,.8)" url="https://www.linkedin.com/in/bdstark2000/" target="_blank" />  */}
           </div>
         </CDBSidebarFooter>
       </CDBSidebar>

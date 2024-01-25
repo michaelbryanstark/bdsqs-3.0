@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialIcon } from 'react-social-icons';
 import bryan from '../images/bryan.jpg'
 import mike from '../images/mike.jpg'
 
@@ -19,6 +20,7 @@ function Secret() {
                                 <div className="card-body">
                                     <h3 className="card-title">Bryan Stark</h3>
                                         <p className="card-text">Bryan, the founder of the company, has over 15 years of experience in Supervisor/Quality Engineering roles in Computer Engineering, Semiconductor, & Aerospace Industry.</p>
+                                        <SocialIcon className="nav-item" fgColor="white" bgColor="rgba(0, 171, 252,.8)" url="https://www.linkedin.com/in/bdstark2000/" target="_blank" />
                                 </div>
                             </div>
                         </div>
