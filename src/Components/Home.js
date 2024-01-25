@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../data/home";
+// import data from "../data/home";
 
 
 
@@ -16,7 +16,7 @@ function Home() {
             <h2 className="welcome-text" style={{ color: 'rgba(0, 171, 252,.8)'}}>Welcome to BDS Quality Services</h2>
                 <div class="container">
                     <div class="row">
-                        <div class="card text-white bg-secondary mb-3">
+                        <div class="card bg-secondary mb-3" style={{ color: 'rgba(222, 185, 146)'}}>
                             <div class="card-body">
                                  <p class="card-text">
                                     When you come to BDS Quality Services, you can expect exceptional knowledge of numerous Quality Assurance Programs utilizing ISO 9001:2015 & AS9100D, which include internal assessments and surveillance audits of suppliers. 

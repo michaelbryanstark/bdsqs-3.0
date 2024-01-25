@@ -13,7 +13,7 @@
   pointer-events: none;
 }
 
-@media (max-width:600px) {
+@media (min-width:576px) {
   .row {
     display: block;
   }

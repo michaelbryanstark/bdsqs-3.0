@@ -12,7 +12,7 @@ function Secret() {
                     <div className="about">
                         <div className="row row-cols-1 row-cols-md-3">
                             <div className="col">
-                                <div className="card text-center h-100 bg-secondary">
+                                <div className="card text-center h-100 bg-secondary" style={{ color: 'rgba(222, 185, 146)'}}>
                                     <div className="image">
                                         <img src={bryan} alt="bryan"/>
                                     </div>
@@ -23,7 +23,7 @@ function Secret() {
                             </div>
                         </div>
                     <div className="col">
-                        <div className="card text-center h-100 bg-secondary">
+                        <div className="card text-center h-100 bg-secondary" style={{ color: 'rgba(222, 185, 146)'}}>
                             <div className="image">
                                 <img className="mike" src={mike} alt="mike"/>
                             </div>
@@ -32,7 +32,7 @@ function Secret() {
                                 <p className="card-text">Software Engineer and Web Developer, Michael has 10+ years in project management and has overseen the developement and deployment of numerous apps across the web.</p>
                         </div>
                             <div>
-                                <button type='button' className="btn btn-outline-info"onClick={()=> window.open("https://www.michaelbryanstark.com/", "_blank")}>Visit Portfolio </button>
+                                <button type='button' className="btn btn-outline-info" style={{ color: 'rgba(222, 185, 146)'}} onClick={()=> window.open("https://www.michaelbryanstark.com/", "_blank")}>Visit Portfolio </button>
                             </div>
                         </div>
                     </div>

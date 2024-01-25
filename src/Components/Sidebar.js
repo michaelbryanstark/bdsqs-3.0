@@ -13,7 +13,7 @@ import { NavLink } from 'react-router-dom';
 function Sidebar() {
   return (
     <div style={{ display: 'flex', height: '50vh', overflow: 'scroll initial' }}>
-      <CDBSidebar toggled textColor="rgba(0, 171, 252,.8)" backgroundColor="none">
+      <CDBSidebar toggled className='navbar-toggler' textColor="rgba(0, 171, 252,.8)" backgroundColor="none">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a href="/" className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)' }}>
             Home

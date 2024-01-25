@@ -49,7 +49,7 @@ const Contact = (props) => {
                  <div>
         <>
                     <div className="container">
-                        <div className="card text-white bg-secondary mb-3">
+                        <div className="card bg-secondary mb-3" style={{ color: 'rgba(222, 185, 146)'}}>
                             <div className="card-body">
                                 <div className="row mb-3">
                                     <label for="exampleFormControlInput1" className="form">Your Name</label>
@@ -59,7 +59,7 @@ const Contact = (props) => {
                                     <label for="exampleFormControlTextarea1" className="form">Your message</label>
                                     <textarea className="form-control mb-3" id="exampleFormControlTextarea1" rows="3" placeholder="Your message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
                                         <div className='col text-center'>
-                                            <button type='button' className="btn btn-outline-info" onClick={submit}>Send Message</button>
+                                            <button type='button' className="btn btn-outline-info" style={{ color: 'rgba(222, 185, 146)'}} onClick={submit}>Send Message</button>
                                                 <span className={emailSent ? 'visible' : null}></span>
                                         </div>
                                 </div>

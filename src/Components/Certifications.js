@@ -9,7 +9,7 @@ function Certifications() {
             </h1>
             <div className="wrapper">
             <div class="container">
-            <div class="card text-white bg-secondary mb-3">
+            <div class="card bg-secondary mb-3" style={{ color: 'rgba(222, 185, 146)'}}>
                 <div class="card-body">
                     <p class="card-text">
                         <h3>ASQ Certified Quality Auditor</h3>  
