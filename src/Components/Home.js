@@ -18,7 +18,7 @@ function Home() {
         <>
                 <div class="container">
                     <div class="row">
-                        <div class="cardHome mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', textAlign: 'left'}}>
+                        <div class="cardHome mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', textAlign: 'left', opacity: 0.79}}>
                         <h2 className="welcome-text" >Welcome to BDS Quality Services</h2>
                             <div class="card-body">
                                  <p class="card-text">
