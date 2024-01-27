@@ -1,4 +1,5 @@
 import React from "react";
+import homeImg from '../images/homeImg.jpg'
 // import bg2 from '../images/bg2.jpg'
 // import data from "../data/home";
 
@@ -7,7 +8,7 @@ import React from "react";
 function Home() {
 
     return (
-        <div>
+        <div style={{backgroundImage:`url(${homeImg})`}}>
             {/* <img className="bg2" src={bg2} alt="bg2" /> */}
             <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '40px'}}>
                 B D S Q S

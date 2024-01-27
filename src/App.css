@@ -28,8 +28,15 @@
   border-width: 5px;
   border-color: rgb(15, 34, 75);
   border-radius: 15px;
+  margin-right: 100px;
+}
 
-  margin-right: 200px;
+.cardServices {
+  box-shadow: 5px 5px 5px #3398E1;
+  text-align: center;
+  border-width: 5px;
+  border-color: rgb(15, 34, 75);
+  border-radius: 15px;
 }
 
 .cardCompany {

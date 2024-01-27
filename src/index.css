@@ -31,11 +31,7 @@ code {
   url("./Fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
 }
 /* project images size */
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+
 
 .wrapper-home img {
   width: 90%;
