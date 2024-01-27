@@ -1,4 +1,5 @@
 import React from "react";
+import servicesBg from '../images/servicesBg.jpg'
 // import data from "../data/illustrations";
 // import Modal from "./Modal";
 
@@ -6,7 +7,7 @@ import React from "react";
 
 function Services() {
   return (
-    <div>
+    <div style={{backgroundImage:`url(${servicesBg})`}}>
         <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
         Services
         </h1>
@@ -14,7 +15,7 @@ function Services() {
         <div class="container">
     <div class="row">
      
-            <div class="cardServices mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
+            <div class="cardServices mb-3" style={{ color: 'rgba(222, 185, 146)', marginLeft: '30px', background:'rgba(15, 34, 75)', opacity: 0.79}}>
                <h3>Test</h3>
                 <div class="card-body">
         <p class="text-left">
