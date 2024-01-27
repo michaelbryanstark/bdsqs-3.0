@@ -10,7 +10,7 @@ function Home() {
     return (
         <div style={{backgroundImage:`url(${homeImg})`}}>
             {/* <img className="bg2" src={bg2} alt="bg2" /> */}
-            <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '40px'}}>
+            <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
                 B D S Q S
             </h1>
             <div className="wrapper">
@@ -18,7 +18,7 @@ function Home() {
         <>
                 <div class="container">
                     <div class="row">
-                        <div class="cardHome mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', textAlign: 'left', opacity: 0.79}}>
+                        <div class="cardHome mb-3" style={{ color: 'rgba(222, 185, 146)', marginLeft: '30px', background:'rgba(15, 34, 75)', textAlign: 'left', opacity: 0.79}}>
                         <h2 className="welcome-text" >Welcome to BDS Quality Services</h2>
                             <div class="card-body">
                                  <p class="card-text">
