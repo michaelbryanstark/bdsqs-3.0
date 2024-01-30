@@ -14,7 +14,7 @@ function Secret() {
                     <div className="about">
                         <div className="row row-cols-1 row-cols-md-3">
                             <div className="col">
-                                <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', marginLeft: '30px'}}>
+                                <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', marginLeft: '30px', opacity: 0.8}}>
                                     <div className="image">
                                         <img className="profilePicBryan" src={bryan} alt="bryan"/>
                                     </div>
@@ -26,9 +26,9 @@ function Secret() {
                             </div>
                         </div>
                     <div className="col">
-                        <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
+                        <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', opacity: 0.9}}>
                             <div className="image">
-                                <img className="profilePicMike" src={mike} alt="mike"/>
+                                <img className="profilePicMike" src={mike} alt="mike" style={{opacity: 1}}/>
                             </div>
                         <div className="card-body">
                             <h3 className="card-title">Michael Stark</h3>
