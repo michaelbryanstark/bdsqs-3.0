@@ -8,6 +8,14 @@
   
 }
 
+.companyBg {
+  background-size: cover;
+}
+
+.certBg {
+  background-size: cover;
+}
+
 .wrapper {
   margin-right: 100px;
 }

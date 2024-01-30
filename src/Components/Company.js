@@ -2,18 +2,19 @@ import React from "react";
 import { SocialIcon } from 'react-social-icons';
 import bryan from '../images/bryan.jpg'
 import mike from '../images/mike.jpg'
+import codeBg from '../images/codeBg.jpg'
 
 function Secret() {
     return (
-        <div>
-            <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
+        <div className="companyBg" style={{backgroundImage:`url(${codeBg})`}}>
+            <h1 className="font-face-gm" style={{ color: 'rgba(222, 185, 146)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
             Company
             </h1>
             <div className="company">
                     <div className="about">
                         <div className="row row-cols-1 row-cols-md-3">
                             <div className="col">
-                                <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)'}}>
+                                <div className="cardCompany text-center h-100" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', marginLeft: '30px'}}>
                                     <div className="image">
                                         <img className="profilePicBryan" src={bryan} alt="bryan"/>
                                     </div>

@@ -10,7 +10,7 @@ function Home() {
     return (
         <div style={{backgroundImage:`url(${homeImg})`}}>
             {/* <img className="bg2" src={bg2} alt="bg2" /> */}
-            <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
+            <h1 className="font-face-gm" style={{ color: 'rgba(222, 185, 146)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
                 B D S Q S
             </h1>
             <div className="wrapper">

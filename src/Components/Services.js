@@ -1,5 +1,5 @@
 import React from "react";
-import servicesBg from '../images/servicesBg.jpg'
+import serviceBg from '../images/serviceBg.jpg'
 // import data from "../data/illustrations";
 // import Modal from "./Modal";
 
@@ -7,8 +7,8 @@ import servicesBg from '../images/servicesBg.jpg'
 
 function Services() {
   return (
-    <div style={{backgroundImage:`url(${servicesBg})`}}>
-        <h1 className="font-face-gm" style={{ color: 'rgba(0, 171, 252,.8)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
+    <div className= 'companyBg' style={{backgroundImage:`url(${serviceBg})`}}>
+        <h1 className="font-face-gm" style={{ color: 'rgba(222, 185, 146)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
         Services
         </h1>
         <div className="wrapper">
