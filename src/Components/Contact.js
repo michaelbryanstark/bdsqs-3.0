@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 
 // import selfie from "../images/selfie.jpg"
 import emailjs from 'emailjs-com'
+import contactBg from '../images/contactBg.jpg'
 
 
 const Contact = (props) => {
@@ -42,14 +43,14 @@ const Contact = (props) => {
 
     return (
         <>
-        <div>
+        <div className= 'companyBg' style={{backgroundImage:`url(${contactBg})`}}>
         <h1 className="font-face-gm" style={{ color: 'rgba(222, 185, 146)', textAlign: 'left', marginTop: '15px', marginLeft: '30px', marginBottom: '75px'}}>
             Contact
             </h1>
                  <div>
         <>
                     <div className="container">
-                        <div className="card mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', textAlign: 'left'}}>
+                        <div className="card mb-3" style={{ color: 'rgba(222, 185, 146)', background:'rgba(15, 34, 75)', textAlign: 'left', marginLeft: '30px', opacity: 0.79}}>
                             <div className="card-body">
                                 <div className="row mb-3">
                                     <label for="exampleFormControlInput1" className="form">Your Name</label>
